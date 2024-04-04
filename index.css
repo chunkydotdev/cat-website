@@ -12,14 +12,14 @@ section > div {
   max-width: 1065px;
   display: flex;
   align-items: flex-start;
-  justify-items: space-between;
   gap: 20px;
+  justify-content: space-between;
 }
 
 .column-center {
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-items: center;
 }
 
 h1 {
@@ -40,9 +40,9 @@ h2 {
 }
 
 h2 + span {
-  display: block;
-  font-size: 2em;
   margin: 1em 0;
+  font-size: 2em;
+  display: block;
 }
 
 button {
@@ -59,7 +59,7 @@ button {
 
 button > img {
   margin-left: 0.5em;
-  transition: transform 400ms;
+  transition: transform 200ms;
 }
 
 button.big {
